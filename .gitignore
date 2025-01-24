@@ -1,0 +1,75 @@
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencias de Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Dependencias Python
+__pycache__/
+*.py[cod]
+*.pyo
+env/
+venv/
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# Entornos virtuales
+*.venv
+*.env
+.env.*
+
+# IDEs y editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.pssproj
+*.iml
+
+# Sistemas de control de versiones propios de los editores
+*.swp
+*.swo
+
+# Archivos de configuración locales
+*.local
+*.env.local
+.env.test
+.env.production
+
+# Archivos temporales de Git
+*.lock
+.git/
+*.bak
+*.tmp
+
+# Archivos específicos de OS
+*.bak
+~$*
+
+# Archivos de configuración personalizados
+local.settings.json
+
+# Cache o configuraciones del sistema
+.cache
+.config/
+
+# Otros binarios
+*.dll
+*.so
+*.lib
+*.a
